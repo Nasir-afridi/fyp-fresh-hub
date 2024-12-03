@@ -1,12 +1,13 @@
-import { useState } from "react";
-import AppRoutes from "./app-routes.jsx";
+import AppRoutes from "./app-routes";
+import TopNav from "./components/nav/index";
+import Footer from "./components/footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
+      <TopNav />
       <AppRoutes />
+      <Footer />
     </div>
   );
 }
