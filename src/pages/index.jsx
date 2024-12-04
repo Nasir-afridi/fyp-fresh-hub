@@ -5,7 +5,11 @@ import HeroSection from "../components/home/hero-section";
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <div className="hero-donate hero my-3">
+        <div className="container">
+          <HeroSection />
+        </div>
+      </div>
     </>
   );
 };
