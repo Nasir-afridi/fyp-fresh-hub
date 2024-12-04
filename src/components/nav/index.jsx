@@ -1,7 +1,7 @@
 const TopNav = () => {
   return (
     <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
+      <div className="container">
         <a class="navbar-brand" href="#">
           Text
         </a>

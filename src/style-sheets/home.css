@@ -2,6 +2,7 @@
 
 .hero {
   background: linear-gradient(180deg, #FCFCF7 6.5%, #1F5E7C 100%);
+  max-width: 100%;
   max-height: auto;
 }
 
@@ -43,7 +44,17 @@
   .youtube-img {
     width: 30px;
   }
-  .row-container {
-    margin-left: 55px;
-  }
+}
+
+/* Services Section */
+
+.headphone {
+  width: 50px;
+  margin-right: 8px;
+}
+.payment {
+  width: 50px;
+}
+.shipping {
+  width: 90px;
 }
