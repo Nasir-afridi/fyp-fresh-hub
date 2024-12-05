@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../components/home/hero-section";
-import Services from "../components/home/services-section";
+import Service from "../components/home/services-section";
+import { Services } from "../constant/services";
 import OfferSection from "../components/home/offer-section";
 
 const Home = () => {
@@ -13,7 +14,13 @@ const Home = () => {
       </div>
       <div className="container mt-5">
         <div class="row text-center">
-          <Services />
+          {Services.map((element) => (
+            <Service
+              image={element.image}
+              heading={element.heading}
+              paragraph={element.paragraph}
+            />
+          ))}
         </div>
       </div>
 
