@@ -1,6 +1,6 @@
 const TopNav = () => {
   return (
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top nav-bar">
       <div className="container">
         <a class="navbar-brand" href="#">
           Text
