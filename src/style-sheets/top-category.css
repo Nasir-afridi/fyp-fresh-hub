@@ -1,0 +1,19 @@
+/* Top Categories */
+.top-category {
+  margin-top: 70px;
+  gap: 2.5rem;
+
+  .card-img-top {
+    width: 100px;
+  }
+  .card {
+    border-radius: 30px;
+  }
+  .card-title {
+    margin-top: 15px;
+  }
+}
+.top-catergory-heading {
+  margin-top: 40px;
+  font-size: 24px;
+}
