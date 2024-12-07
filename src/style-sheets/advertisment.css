@@ -1,0 +1,23 @@
+.advertisment-container {
+  background-color: rgba(235,245,190,255);
+  border-radius: 15px;
+
+  .fruit-cart {
+    width: 300px;
+    margin-bottom: 60px;
+    /* max-width: ; */
+  }
+  .mt-5 {
+    font-size: 35px;
+    font-weight: bolder;
+    
+    .Eco {
+      color: rgba(31, 94, 124, 1);
+    }
+    
+  }
+  .fw-bold {
+    padding: 12px 40px;
+    font-size: 17px;
+  }
+}

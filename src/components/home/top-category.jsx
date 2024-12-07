@@ -1,7 +1,7 @@
 const TopCategory = (select) => {
   return (
     <>
-      <div className="col-md-2 col-sm-6 col-12 ">
+      <div className="col-md-2 col-sm-6 col-xs-6 ">
         <div className="card text-center">
           <div className="card-body">
             <img src={select.Image} alt="Meat" className="card-img-top" />

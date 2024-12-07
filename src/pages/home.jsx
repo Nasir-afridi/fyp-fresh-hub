@@ -5,6 +5,7 @@ import { Services } from "../constant/services";
 import OfferSection from "../components/home/offer-section";
 import TopCategory from "../components/home/top-category";
 import { TopCategories } from "../constant/top-category";
+import Advertisment from "../components/home/Advertisment";
 
 const Home = () => {
   return (
@@ -52,6 +53,12 @@ const Home = () => {
               description={element.description}
             />
           ))}
+        </div>
+      </div>
+
+      <div className="container advertisment-container mt-5">
+        <div className="row">
+          <Advertisment />
         </div>
       </div>
     </>
