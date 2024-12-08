@@ -1,0 +1,39 @@
+.best-sell-navbar {
+  margin-left: 100px;
+  margin-top: 30px;
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-nav {
+    margin-left: 30px;
+  }
+  .nav-item {
+    margin-left: 20px;
+  }
+}
+.card {
+  border-radius: 20px;
+}
+
+.apple {
+  width: 300px;
+}
+
+.rating {
+  font-size: large;
+}
+
+.heart {
+width: 30px;
+}
+.cart-button {
+  background: rgba(31, 94, 124, 1);
+  color: white;
+  border-radius: 36px;
+  font-size: 22px;
+  width: 50px;
+}
+.cards-container {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FDF8D0 58.5%, #FFFFFF 97%);  
+}
