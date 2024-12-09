@@ -7,6 +7,7 @@ import TopCategory from "../components/home/top-category";
 import BestSell from "../components/home/best-sell";
 import { TopCategories } from "../constant/top-category";
 import Advertisment from "../components/home/Advertisment";
+import { Sell } from "../constant/best-sell";
 
 const Home = () => {
   return (
@@ -115,28 +116,14 @@ const Home = () => {
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div class="card">
-              <img src="apple.png" className="card-img-top apple" alt="Apple" />
-              <div className="card-body">
-                <h5 className="card-title">Apple</h5>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p className="card-text">$13.00</p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="rating">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star-half-o"></i>
-                  </div>
-                  <a href="#" className="btn  btn-sm">
-                    <img src="heart.png" className="heart" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {Sell.map((element) => (
+            <BestSell
+              image={element.image}
+              heading={element.heading}
+              description={element.description}
+              heartIcon={element.heartIcon}
+            />
+          ))}
         </div>
       </div>
     </>
