@@ -4,7 +4,7 @@ import { Services } from "../constant/services";
 import TopCategory from "../components/about/top-category";
 import { TopCategories } from "../constant/top-category";
 import BestSell from "../components/about/best-sell";
-import { Sell } from "../constant/best-sell";
+import { bestSell } from "../components/about/constant/bestSell";
 
 const About = () => {
   return (
@@ -49,9 +49,9 @@ const About = () => {
       <div class="container">
         <div class="row">
           <div className="top-catergory-heading">
-            <p className="top-heading fw-bold mt-5 mb-5">Meat</p>
+            <p className="top-heading fw-bold mt-5 mb-5">Meat and Fish</p>
           </div>
-          {Sell.map((element) => (
+          {bestSell.map((element) => (
             <BestSell
               image={element.image}
               heading={element.heading}

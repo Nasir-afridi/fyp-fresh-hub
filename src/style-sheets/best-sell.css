@@ -19,11 +19,12 @@
 }
 
 .apple {
-  width: 240px;
+  width: 250px;
   height: 150px;
   max-height: 350px;
   object-fit: cover;
   object-position: center;
+  margin-left: 5px;
 }
 
 .rating {
