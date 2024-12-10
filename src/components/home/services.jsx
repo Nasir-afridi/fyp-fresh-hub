@@ -1,4 +1,4 @@
-const Services = (props) => {
+const Service = (props) => {
   return (
     <>
       <div class="col-md-3 col-sm-6 mb-4">
@@ -12,4 +12,4 @@ const Services = (props) => {
   );
 };
 
-export default Services;
+export default Service;

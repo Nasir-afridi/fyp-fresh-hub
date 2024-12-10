@@ -6,7 +6,7 @@ const OfferSection = () => {
           <div className="col-md-6 col-sm-12">
             <div className="image-container">
               <center>
-                <img src="apple.png" className="apple" />
+                <img src="apple.png" className="apple-img" />
               </center>
             </div>
           </div>

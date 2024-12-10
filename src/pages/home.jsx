@@ -1,19 +1,18 @@
 import React from "react";
 import HeroSection from "../components/home/hero-section";
-import Service from "../components/home/services-section";
+import Service from "../components/home/services";
 import { Services } from "../constant/services";
 import OfferSection from "../components/home/offer-section";
 import TopCategory from "../components/home/top-category";
-import BestSell from "../components/home/best-sell";
 import { TopCategories } from "../constant/top-category";
-import Advertisment from "../components/home/Advertisment";
+import BestSell from "../components/home/best-sell";
 import { Sell } from "../constant/best-sell";
+import Advertisment from "../components/home/Advertisment";
 
 const Home = () => {
   return (
     <>
       {/* Hero Section */}
-
       <div className="hero-donate hero my-3">
         <div className="container">
           <HeroSection />
@@ -21,7 +20,6 @@ const Home = () => {
       </div>
 
       {/* services Section */}
-
       <div className="container mt-5">
         <div class="row text-center">
           {Services.map((element) => (
@@ -35,7 +33,6 @@ const Home = () => {
       </div>
 
       {/* Offer Section */}
-
       <div className="container">
         <div className="row">
           <OfferSection />
@@ -43,7 +40,6 @@ const Home = () => {
       </div>
 
       {/* TopCategory Section */}
-
       <div className="container">
         <div className="row  justify-content-center top-category">
           <div className="top-catergory-heading">
@@ -113,7 +109,6 @@ const Home = () => {
           </div>
         </nav>
       </div>
-
       <div class="container">
         <div class="row">
           {Sell.map((element) => (
@@ -124,6 +119,9 @@ const Home = () => {
               heartIcon={element.heartIcon}
             />
           ))}
+        </div>
+        <div className="show-more-btn-container text-center">
+          <button className="btn-lg show-more">Show More</button>
         </div>
       </div>
     </>

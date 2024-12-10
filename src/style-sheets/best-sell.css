@@ -39,3 +39,11 @@
 .cards-container {
   background: linear-gradient(180deg, #FFFFFF 0%, #FDF8D0 58.5%, #FFFFFF 97%);  
 }
+.show-more {
+  border: 5px solid rgba(0, 0, 0, 0.45);
+  padding: 15px 40px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
