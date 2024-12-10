@@ -1,46 +1,46 @@
 export const Sell = [
   {
-    "image" : "/apple.png",
-    "heading" : "Apple",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
     "description" : "$13.00",
     "heartIcon" : "heart.png"
   },
   {
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
+    "description" : "$9.00",
     "heartIcon" : "heart.png"
   },
   {
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
+    "description" : "$7.00",
     "heartIcon" : "heart.png"
   },
   {
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
+    "description" : "$14.00",
     "heartIcon" : "heart.png"
   },{
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/fish.jpeg",
+    "heading" : "Meat",
+    "description" : "$16.00",
     "heartIcon" : "heart.png"
   },{
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meats-img.png",
+    "heading" : "Meat",
+    "description" : "$8.00",
     "heartIcon" : "heart.png"
   },{
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
+    "description" : "$9.00",
     "heartIcon" : "heart.png"
   },{
-    "image" : "/apple.png",
-    "heading" : "Apple",
-    "description" : "$13.00",
+    "image" : "/meat-img.png",
+    "heading" : "Meat",
+    "description" : "$14.00",
     "heartIcon" : "heart.png"
   },
 ]

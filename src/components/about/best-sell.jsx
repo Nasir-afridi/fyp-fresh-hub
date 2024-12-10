@@ -10,7 +10,8 @@ const BestSell = (props) => {
     <>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <div class="card">
-          <img src={props.image} className="card-img-top apple" alt="Apple" />
+          <img src={props.image} className="card-img-top apple mt-4" />
+
           <div className="card-body">
             <h5 className="card-title">{props.heading}</h5>
             <i class="fa-solid fa-cart-shopping"></i>

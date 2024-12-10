@@ -49,7 +49,7 @@ const About = () => {
       <div class="container">
         <div class="row">
           <div className="top-catergory-heading">
-            <p className="top-heading fw-bold mt-5 mb-5">Meat and Fish</p>
+            <p className="top-heading fw-bold mt-5 mb-5">Meat</p>
           </div>
           {Sell.map((element) => (
             <BestSell
