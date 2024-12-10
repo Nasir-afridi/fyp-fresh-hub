@@ -1,9 +1,9 @@
-import HeroSection from "../components/home/hero-section";
-import Service from "../components/home/services";
+import HeroSection from "../components/about/hero-section";
+import Service from "../components/about/services";
 import { Services } from "../constant/services";
-import TopCategory from "../components/home/top-category";
+import TopCategory from "../components/about/top-category";
 import { TopCategories } from "../constant/top-category";
-import BestSell from "../components/home/best-sell";
+import BestSell from "../components/about/best-sell";
 import { Sell } from "../constant/best-sell";
 
 const About = () => {
@@ -45,57 +45,12 @@ const About = () => {
       </div>
 
       {/* Best Sell Section */}
-      <div className="best-sell-container">
-        <nav className="navbar navbar-expand-lg best-sell-navbar">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Daily Best Sell
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    All
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active" href="#">
-                    Top sell
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    New
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Vegetables
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Fruit
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+
       <div class="container">
         <div class="row">
+          <div className="top-catergory-heading">
+            <p className="top-heading fw-bold mt-5 mb-5">Meat and Fish</p>
+          </div>
           {Sell.map((element) => (
             <BestSell
               image={element.image}
