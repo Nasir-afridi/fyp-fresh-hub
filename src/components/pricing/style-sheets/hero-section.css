@@ -1,6 +1,5 @@
 .list-anchor {
   font-size: medium;
-  margin-right: 20px;
   font-family: Poppins;
 
   .greater-than-symbol {
@@ -12,25 +11,19 @@
 
 .main-hero-container {
   .aside-imgs {
-  width:200px;
+    max-width: 150px;
 
-  .img-fluid{
-  width: 150px;
-}
 .img-fluid-1 {
-  width: 150px;
   border-color: rgba(31, 94, 124, 1);
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
   padding: 5px;
 }
-
 }
-
-
 .main-hero-img {
-  width: 400px;
+  width: 90%;
+  max-width: 450px;
   margin-top: 40px;
   background: rgba(250, 250, 250, 1);
   border-radius: 20px;
@@ -39,12 +32,11 @@
 
 
 .hero-text-container {
-  width: 400px;
+  width: 95%;
+  max-width: 470px;
   font-family: Poppins;
 
   .heading{
-    width: 370px;
-    max-width: 350px;
 
     .coca {
       font-weight: bold;
@@ -71,6 +63,7 @@
 } 
 
 .soft-drinks {
+  justify-content: space-between;
  .soft {
   color: rgba(31, 94, 124, 1);
   background: rgba(254, 14, 1, 0.1);
@@ -104,5 +97,14 @@
 
 .heart-imgs {
     width: 30px;
+  }
 
+  @media screen and  (max-width: 600px) {
+    .img-fluid-1, .img-fluid {
+      display: none;
+    }
+    .hero-text-container {
+      margin: 0 auto;
+      text-align: center;
+    }
   }

@@ -30,19 +30,15 @@ const Hero = () => {
           </ul>
         </nav>
       </div>
-      <div class="d-flex justify-content-center main-hero-container ">
+      <div class="d-flex justify-content-center main-hero-container flex-wrap">
         <div class="aside-imgs d-flex flex-column align-self-start mt-2 me-4">
-          <img src="coca-cola.png" alt="img1" className="img-fluid-1 mb-5" />
-          <img src="coca-cola.png" alt="img2" className="img-fluid mb-5" />
-          <img src="coca-cola.png" alt="img3" className="img-fluid mb-5" />
+          <img src="coca-cola.png" alt="img1" className="img-fluid-1 mb-2" />
+          <img src="coca-cola.png" alt="img2" className="img-fluid mb-2" />
+          <img src="coca-cola.png" alt="img3" className="img-fluid mb-2" />
         </div>
 
         <div className="main-img-container d-flex justify-content-center align-self-start me-4">
-          <img
-            src="coca-cola.png"
-            alt="main-img"
-            className="img-fluid main-hero-img"
-          />
+          <img src="coca-cola.png" alt="main-img" className=" main-hero-img" />
         </div>
 
         <div className="hero-text-container align-self-start ">
@@ -53,15 +49,15 @@ const Hero = () => {
               Mixed with coconut oil, the Pyary Ayurvedic All Natural Soap comes
               across as the most aromatic skin protector whose silky lather
               soothes even the most sensitive skin. Turmeric contains essential
-              oil, curcumin oil and is an indispensable ingredient in certain
-              skin care preparations. Besides external application turmeric is
-              also administered internally as stimulant and it is absolutely
-              harmless natural ingredient. Every cake of Pyary Soap passes
-              through rigourous quality control tests. The peerless home-spun
+              curcumin oil and is an indispensable ingredient in certain skin
+              care preparations. Besides external application turmeric is also
+              administered internally as stimulant and it is absolutely harmless
+              natural ingredient. Every cake of Pyary Soap passes through
+              rigourous quality control tests. The peerless home-spun
               manufacturing system .ensure soft-lathering properties.
             </p>
-            <div className="soft-drinks d-flex justify-content:space">
-              <div className="drinks-container">
+            <div className="soft-drinks d-flex">
+              <div className="drinks-container ">
                 <button className="soft">Soft Drink</button>
               </div>
               <div>
@@ -71,7 +67,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="buy-button d-flex justify-content:space  mt-4 align-items-center">
+            <div className="buy-button d-flex mt-4 align-items-center">
               <div className="buy-container ">
                 <button className="buy fw-bold text-white btn-lg">
                   Buy Now
