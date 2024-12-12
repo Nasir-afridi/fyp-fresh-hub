@@ -1,0 +1,55 @@
+.main-container {
+  width: 100%;
+  font-family:Poppins;
+  margin-top: 50px;
+
+  .container {
+    width: 85%;
+    justify-content: space-between;
+
+    .text-container{
+      width: auto;
+      max-width: 300px;
+
+      .review {
+
+      }
+      .customer-review {
+        line-height:50px;
+      }
+    }
+  }
+
+
+  .reviews-container {
+    .women-pic {
+      width: 20%;
+      max-width: 300px;
+      
+    }
+    .women-text-container {
+      max-width: 320px;
+
+      .lead {
+        font-size: 13px;
+        width: 80%;
+        max-width: 380px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .main-container {
+    text-align: center;
+    display: flex;
+
+  }
+}
+
+@media (min-width: 1400px) {
+  .container{
+      max-width: 1147px;
+  }
+}
