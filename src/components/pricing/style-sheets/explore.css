@@ -1,0 +1,195 @@
+.explore-container{
+  width: 100%;
+  font-family: Poppins;
+
+    .explore-paragraph {
+    color: rgba(31, 94, 124, 1);  
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .explore-cards {
+    gap: 5rem;
+    justify-content: center;
+    /* cardes-1 */
+    .cardss-1 {
+      background: whitesmoke;
+      margin-bottom: 0;
+      padding: 20px;
+      border-radius: 12px;
+
+      .cardss-img-1 {
+        max-width:100px;
+        padding: 10px;
+
+        .oil-img-1 {
+          width: 100%;
+        }
+      }
+      .cardss-text-1 {
+        max-width:200px;
+        margin-left: 13px;
+  
+        .dolly {
+          font-size: 12px;
+        }
+        .pallet {
+          font-size: 10px;
+          color: rgba(31, 94, 124, 1);
+        }
+        .pallets {
+          font-size: 9px;
+          color: gray;
+        }
+        .order {
+          font-size: 9px;
+        }
+        .min {
+          color: gray;
+        }
+        .uae {
+          max-width: 10px;
+          .uae-logo {
+            width: 100%;
+          }
+        }
+        .dubai {
+          font-size: 9px;
+          margin-top: 7px;
+        }
+        .now {
+          font-size: 9px;
+          font-weight: bold;
+          border: none;
+          border-radius: 5px;
+          margin-left: 25px;
+          padding: 8px 30px;
+          color: white;
+          background-color: rgba(31, 94, 124, 1);
+        }
+        }
+      }
+    }
+
+
+
+          /* cardes-2 */
+          .cardss-2 {
+            background: whitesmoke;
+            margin-bottom: 0;
+            padding: 20px;
+            border-radius: 12px;
+
+            .cardss-img-2 {
+              max-width:100px;
+              padding: 10px;
+
+              .oil-img-2 {
+                width: 100%;
+              }
+            }
+            .cardss-text-2 {
+              max-width:200px;
+              margin-left: 13px;
+        
+              .dolly-2 {
+                font-size: 12px;
+              }
+              .pallet-2 {
+                font-size: 10px;
+                color: rgba(31, 94, 124, 1);
+              }
+              .pallets-2 {
+                font-size: 9px;
+                color: gray;
+              }
+              .order-2 {
+                font-size: 9px;
+              }
+              .min-2 {
+                color: gray;
+              }
+              .uae-2 {
+                max-width: 10px;
+                .uae-logo-2 {
+                  width: 100%;
+                }
+              }
+              .dubai-2 {
+                font-size: 9px;
+                margin-top: 7px;
+              }
+              .now-2 {
+                font-size: 9px;
+                font-weight: bold;
+                border: none;
+                border-radius: 5px;
+                margin-left: 25px;
+                padding: 8px 30px;
+                color: white;
+                background-color: rgba(31, 94, 124, 1);
+              }
+              }
+            }
+          
+          /* cardes-3 */
+          
+          .cardss-3 {
+            background: whitesmoke;
+            margin-bottom: 0;
+            padding: 20px;
+            border-radius: 12px;
+
+            .cardss-img-3 {
+              max-width:90px;
+              padding: 10px;
+
+              .oil-img-3 {
+                width: 100%;
+              }
+            }
+            .cardss-text-3 {
+              max-width:200px;
+              margin-left: 13px;
+        
+              .dolly-3 {
+                font-size: 12px;
+              }
+              .pallet-3 {
+                font-size: 10px;
+                color: rgba(31, 94, 124, 1);
+              }
+              .pallets-3 {
+                font-size: 9px;
+                color: gray;
+              }
+              .order-3 {
+                font-size: 9px;
+              }
+              .min-3 {
+                color: gray;
+              }
+              .uae-3 {
+                max-width: 10px;
+                .uae-logo-3 {
+                  width: 100%;
+                }
+              }
+              .dubai-3 {
+                font-size: 9px;
+                margin-top: 7px;
+              }
+              .now-3 {
+                font-size: 9px;
+                font-weight: bold;
+                border: none;
+                border-radius: 5px;
+                margin-left: 25px;
+                padding: 8px 30px;
+                color: white;
+                background-color: rgba(31, 94, 124, 1);
+              }
+              }
+            }
+
+        }
