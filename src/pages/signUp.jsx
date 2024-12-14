@@ -76,7 +76,7 @@ const SignUp = () => {
 
           <p className="footer-text mt-4">
             By creating an account, you are agreeing to our{" "}
-            <a href="#">User Agreement</a> and <a href="#">Privacy Policy</a>.
+            <a href="#">User Agreement</a> and <a href="#">Privacy Policy.</a>.
           </p>
         </form>
       </div>
