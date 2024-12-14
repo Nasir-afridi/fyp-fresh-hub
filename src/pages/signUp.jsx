@@ -3,7 +3,7 @@ import "../components/signup/style-sheets/signup.css";
 const SignUp = () => {
   return (
     <div className="form-container">
-      <div className=" login-container">
+      <div className=" signup-container">
         <div className="heading-create text-center mt-5">
           <h1 className=" create">Create Account</h1>
         </div>
