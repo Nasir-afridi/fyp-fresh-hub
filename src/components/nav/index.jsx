@@ -36,6 +36,11 @@ const TopNav = () => {
                 <Link to="/pricing">Pricing</Link>
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                <Link to="/signup">SignUp</Link>
+              </a>
+            </li>
           </ul>
           <div className="navbar-text">
             <button type="button" className="btn btn-danger me-2">
