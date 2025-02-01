@@ -1,5 +1,5 @@
 import "../components/login/style-sheets/login.css";
-import LoginComp from "../components/login/style-sheets/login-comp";
+import LoginComp from "../components/login/login-comp";
 
 const Login = () => {
   return (
