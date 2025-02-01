@@ -10,61 +10,48 @@ const InputForm = () => {
       <form>
         <div className="mb-4">
           <label for="fullName" className="form-label">
-            Full Name
+            First Name
           </label>
           <input
             type="text"
             className="form-control"
             id="fullName"
-            placeholder="Full Name"
+            placeholder="First Name"
             required
           />
         </div>
         <div className="mb-4">
           <label for="phoneNumber" className="form-label">
-            Phone Number
+            Last Name
           </label>
           <input
             type="text"
             className="form-control"
             id="phoneNumber"
-            placeholder="Phone Number"
+            placeholder="Last Name"
             required
           />
         </div>
         <div className="mb-4">
           <label for="email" className="form-label">
-            E-mail (Optional)
+            E-mail
           </label>
           <input
             type="email"
             className="form-control"
             id="email"
-            placeholder="E-mail (Optional)"
+            placeholder="E-mail"
           />
         </div>
         <div className="mb-4">
-          <label for="country" className="form-label">
-            Country
+          <label for="email" className="form-label">
+            Password
           </label>
           <input
-            type="text"
+            type="email"
             className="form-control"
-            id="country"
-            placeholder="Country"
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label for="city" className="form-label">
-            City
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="city"
-            placeholder="City"
-            required
+            id="email"
+            placeholder="Password"
           />
         </div>
         <div className="d-grid">
