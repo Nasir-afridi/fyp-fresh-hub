@@ -41,11 +41,11 @@ const TopNav = () => {
                 <Link to="/signup">SignUp</Link>
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">
                 <Link to="/otp">Otp</Link>
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#">
                 <Link to="/login">Login</Link>
