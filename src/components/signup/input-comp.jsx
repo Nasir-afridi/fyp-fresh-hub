@@ -1,28 +1,34 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { submitForm } from "../../features/userSlice";
 
 const InputForm = () => {
+  const dispatch = useDispatch();
+  const { status, error } = useSelector((state) => state.user);
+
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",
     email: "",
-    pasword: "",
+    password: "",
   });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    dispatch(submitForm(formData));
+  };
 
   const onChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
   return (
     <>
       <div className="heading-create text-center mt-5">
-        <h1 className=" create">Create Account</h1>
+        <h1 className="create">Create Account</h1>
       </div>
       <div className="car-img text-center mt-5">
-        <img src="cars.svg" />
+        <img src="cars.svg" alt="Cars" />
       </div>
       <form onSubmit={onSubmit}>
         <div className="mb-4">
@@ -64,10 +70,11 @@ const InputForm = () => {
             placeholder="E-mail"
             name="email"
             onChange={onChange}
+            required
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="form-label">
+          <label htmlFor="password" className="form-label">
             Password
           </label>
           <input
@@ -77,17 +84,22 @@ const InputForm = () => {
             placeholder="Password"
             name="password"
             onChange={onChange}
+            required
           />
         </div>
         <div className="d-grid">
-          <button type="submit" className="Next">
-            Next
+          <button
+            type="submit"
+            className="Next"
+            disabled={status === "loading"}
+          >
+            {status === "loading" ? "Submitting..." : "Next"}
           </button>
         </div>
-
+        {error && <div className="text-danger mt-3">{error}</div>}
         <p className="footer-text mt-4">
           By creating an account, you are agreeing to our
-          <a href="#">User Agreement</a> and <a href="#">Privacy Policy.</a>.
+          <a href="#">User Agreement</a> and <a href="#">Privacy Policy</a>.
         </p>
       </form>
     </>
