@@ -10,7 +10,7 @@ const LoginComp = () => {
 
       <div className="inputss mt-5">
         <div className="mb-4">
-          <label for="fullName" className="form-label">
+          <label htmlFor="fullName" className="form-label">
             Email or Phone Number
           </label>
           <input
@@ -22,7 +22,7 @@ const LoginComp = () => {
           />
         </div>
         <div className="mb-4">
-          <label for="phoneNumber" className="form-label">
+          <label htmlFor="phoneNumber" className="form-label">
             Password
           </label>
           <input

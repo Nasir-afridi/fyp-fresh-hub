@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { submitForm } from "../../features/signUp.userSlice";
+import { submitForm } from "../../features/userSlice.js";
 import { useNavigate } from "react-router-dom";
 
 const InputForm = () => {
