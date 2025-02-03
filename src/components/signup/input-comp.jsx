@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { submitForm } from "../../features/userSlice";
+import { submitForm } from "../../features/signUp.userSlice";
+import { useNavigate } from "react-router-dom";
 
 const InputForm = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { status, error } = useSelector((state) => state.user);
 
   const [formData, setFormData] = useState({
@@ -15,7 +17,13 @@ const InputForm = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    dispatch(submitForm(formData));
+    dispatch(submitForm(formData))
+      .then(() => {
+        navigate("/login");
+      })
+      .catch((err) => {
+        console.error("Registration failed:", err);
+      });
   };
 
   const onChange = (event) => {
