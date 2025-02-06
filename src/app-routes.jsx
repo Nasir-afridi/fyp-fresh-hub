@@ -1,21 +1,24 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
-import Pricing from "./pages/pricing";
+import Product from "./pages/pricing"; // Assuming you have this page
 import SignUp from "./pages/signUp";
-// import Otp from "./pages/otp";
 import Login from "./pages/login";
+import PrivateRoute from "./components/privateRoutes"; // Import PrivateRoute
+import PublicRoute from "./components/publicRoute"; // Import PublicRoute
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/signup" element={<SignUp />} />
-      {/* <Route path="/otp" element={<Otp />} /> */}
-      <Route path="/login" element={<Login />} />
+      {/* Public routes */}
+      <Route path="/signup" element={<PublicRoute element={<SignUp />} />} />
+      <Route path="/login" element={<PublicRoute element={<Login />} />} />
+
+      {/* Private routes */}
+      <Route path="/" element={<PrivateRoute element={<Home />} />} />
+      <Route path="/home" element={<PrivateRoute element={<Home />} />} />
+      <Route path="/about" element={<PrivateRoute element={<About />} />} />
+      <Route path="/pricing" element={<PrivateRoute element={<Product />} />} />
     </Routes>
   );
 };
