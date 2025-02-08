@@ -5,9 +5,7 @@ const TopNav = () => {
   return (
     <nav className="navbar navbar-expand-lg sticky-top nav-bar">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          Text
-        </a>
+        Text
         <button
           className="navbar-toggler"
           type="button"
@@ -22,34 +20,20 @@ const TopNav = () => {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
-                <Link to="/home">Home</Link>
-              </a>
+              <Link to="/home">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                <Link to="/about">About</Link>
-              </a>
+              <Link to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                <Link to="/pricing">Pricing</Link>
-              </a>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to="/signup">SignUp</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                <Link to="/signup">SignUp</Link>
-              </a>
-            </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#">
-                <Link to="/otp">Otp</Link>
-              </a>
-            </li> */}
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <Link to="/login">Login</Link>
-              </a>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
           <div className="navbar-text">
